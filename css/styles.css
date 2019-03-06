@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+   }
+   .hospital-section {
+       overflow: hidden;
+       text-align: center;
+       background: skyblue;
+       padding: 60px;
+   }
+   .hospital-section h1 {
+       text-transform: uppercase;
+   }
+   .border {
+       display: block;
+       margin: auto;
+       width: 160px;
+       height: 3px;
+       background: blue;
+       margin-bottom: 40px;
+   }
+   .ps {
+       margin-bottom: 40px;
+   }
+   .ps a {
+       display: inline-block;
+       margin: 0 30px;
+       width: 160px;
+       overflow: hidden;
+       border-radius: 50%;
+   }
+   .ps a img{
+       width: 150px;
+       filter: grayscale(100%);
+       transition: 0.4s all;
+   }
+   .ps a:hover > img {
+       filter: none;
+   }
+   .section {
+       width: 600px;
+       margin: auto;
+       font-size: 20px;
+       color: black;
+       text-align: center;
+       height: 0;
+       overflow: hidden;
+   }
+   .section:target{
+       height: auto;
+   }
+   .name {
+       display: block;
+       margin: bottom;
+   }
+   .btn{
+       background:red;
+       color:white;
+       cursor:pointer;
+   }
+   #box{
+       background:white;
+       box-shadow:0 0 20px black;
+       border-radius:8px;
+       text-align: center;
+       padding: 40px;
+       top: 50%;
+       left:50%;
+       position: absolute;
+       transform: translate(-50%, -50%);
+       text-align: center;
+       display: none;
+   }
+   .close{
+       background:blue;
+       color: white;
+       border-radius: 6px;
+       text-align: center;
+       position: relative;
+   }
